@@ -1,7 +1,6 @@
 {
   "name": "fd_sequelize_server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./server.js"
@@ -19,5 +18,17 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.9.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdcourses/fd_sequelize_db_server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fdcourses/fd_sequelize_db_server/issues"
+  },
+  "homepage": "https://github.com/fdcourses/fd_sequelize_db_server#readme",
+  "description": ""
 }
